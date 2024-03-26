@@ -1,0 +1,8 @@
+type: framework
+content:
+  - Create a short URL
+  - Count the clicks
+  - Delete a URL
+  - Edit a URL
+  - Bonus  Add style
+current_task: 4

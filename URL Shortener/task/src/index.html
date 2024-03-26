@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>URL Shortener</h1>
+    <form onsubmit="onCreateURL(event)" id="my-form">
+        <label for="input-url"></label>
+        <input type="text" id="input-url" placeholder="Enter a url">
+        <button type="submit" id="button-create">Create</button>
+        <button type="button" id="button-delete" onclick="onDeleteURL()">Delete</button>
+    </form>
+
+    <ol id="list-url"></ol>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
